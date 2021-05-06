@@ -1,0 +1,121 @@
+
+.form,
+.greetings{
+  display: none;
+}
+
+
+h1{
+  width : 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px 100px / 120px;
+  font-size : 90px;
+  color : white;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.showing{
+  display : block;
+  font-size : 35px;
+  color : white;
+  margin: 0px;
+  padding : 30px 0px 30px 0px;
+}
+#name{
+  margin-top : 3-px;
+  font-size: 17px;
+  padding : 5px;
+  height: 25px;
+  width : 300px;
+  text-align: center;
+}
+#list{
+  margin-top : 3-px;
+  font-size: 17px;
+  padding : 5px;
+  height: 25px;
+  width : 300px;
+  text-align: center;
+}
+
+
+ul{
+   list-style:none;
+   position: absolute;
+   left : 30%;
+}
+
+.js-toDoList li{
+  height: 10%;
+  color: white;
+  padding: 5px 0px 10px 0px;
+
+}
+
+.js-toDoList span{
+  font-size : 18px;
+  font-family: 'Nanum Gothic Coding';
+  position: absolute;
+  text-align: left;
+  text-indent: 15px;
+  width : 360px;
+  height: 20px;
+  padding: 12px 5px 8px 5px;
+  left : 90px;
+  border-radius: 40px 40px;
+  background-color: rgba(0,0,0,0.3)
+
+}
+
+.js-toDoList button{
+
+  font-size : 14px;
+  border-radius: 20%;
+  border-width: 0px;
+  margin: 7px 0px 7px 0px;
+
+}
+
+.js-weather{
+
+  position: absolute;
+  right: 20px;
+  top : 15px;
+  text-align: right;
+  color : black;
+  font-family:  monospace,sans-serif;
+}
+
+
+
+body{
+  background-color: black;
+  text-align: center;
+  margin: 150px;
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity : 0;
+  }
+  to {
+    opacity : 1;
+  }
+}
+
+.bgImage{
+
+  position: absolute;
+  top : 0;
+  left : 0;
+  right : 0;
+  bottom : 0;
+  width: 100%;
+  height: 100%;
+  z-index : -1;
+  animation : fadeIn .5s linear;
+}
